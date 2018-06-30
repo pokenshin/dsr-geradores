@@ -9,6 +9,11 @@ public class ValorMag {
         this.mag = mag;
     }
 
+    public ValorMag(){
+        this.valor = 0;
+        this.mag = 0;
+    }
+
     public ValorMag(String texto) {
         if (texto != null && texto != ""){
             this.valor = Integer.parseInt(texto.split(",")[0]);
