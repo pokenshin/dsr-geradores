@@ -119,4 +119,108 @@ public class CalculadorValor {
             return this.IntToValorMag(Integer.parseInt(numeroString));
         }
     }
+
+    public ValorMag DivideValorMag(ValorMag valor, ValorMag divisor){
+        if (valor.toString() == "0m0"){
+            return new ValorMag();
+        }
+        if (divisor.toString() == "1m1" || divisor.toString() == "10m0"){
+            return valor;
+        }
+        int magFinal = ((valor.getMag() - 2) - (divisor.getMag() - 2)) + 2;
+        double valorFinal = (double)valor.getValor() / (double)divisor.getValor();
+
+        while (valorFinal < 10){
+            valorFinal *= 10;
+            magFinal -= 1;
+        }
+
+        return new ValorMag((int)Math.floor(valorFinal), magFinal);
+    }
+
+    public ValorMag DivideValorMag(ValorMag valor, int divisor){
+        if (divisor == 0){
+            return new ValorMag();
+        }
+        if (divisor == 1){
+            return valor;
+        }
+        return this.DivideValorMag(valor, this.IntToValorMag(divisor));
+    }
+
+    public int CalculaPorcentagem(int porcentagem, int valor){
+        double pct = (double)porcentagem / 100;
+        return (int)Math.floor(valor * pct);
+    }
+
+    public ValorMag SomaValorMag(ValorMag valorMag1, ValorMag valorMag2){
+        double valorFinal;
+        double magnitudeFinal;
+        int valor1 = valorMag1.getValor();
+        int valor2 = valorMag2.getValor();
+        int mag1 = valorMag1.getMag();
+        int mag2 = valorMag2.getMag();
+
+        if (mag1 == mag2){
+            magnitudeFinal = mag1;
+            valorFinal = valor1 + valor2;
+
+            if (valorFinal > 99)
+            {
+                valorFinal = valorFinal / 10;
+                magnitudeFinal = magnitudeFinal + 1;
+            }
+        } else if (mag1 - mag2 == 1 || mag1 - mag2 == -1){
+            magnitudeFinal = Math.max(mag1, mag2);
+
+            if (magnitudeFinal == mag1)
+                valorFinal = (double)valor1 + ((double)valor2 / 10);
+            else
+                valorFinal = (double)valor2 + ((double)valor1 / 10);
+        }
+        else{
+            magnitudeFinal = Math.max(mag1, mag2);
+            if (magnitudeFinal == mag1)
+                valorFinal = valor1;
+            else
+                valorFinal = valor2;
+        }
+        return new ValorMag((int)Math.floor(valorFinal), (int)Math.floor(magnitudeFinal));
+    }
+
+    public ValorMag SubtraiValorMag(ValorMag valorMag1, ValorMag valorMag2){
+        if (valorMag1.toString() == valorMag2.toString()){
+            return new ValorMag();
+        }
+        double valorFinal;
+        int magnitudeFinal = 0;
+        int valor1 = valorMag1.getValor();
+        int valor2 = valorMag2.getValor();
+        int mag1 = valorMag1.getMag();
+        int mag2 = valorMag2.getMag();
+
+        if (mag1 == mag2){
+            magnitudeFinal = mag1;
+            valorFinal = valor1 - valor2;
+            if (valorFinal < 0){
+                valorFinal *= 10;
+                magnitudeFinal -= 1;
+            }
+        }else if (mag1 - mag2 == 1 || mag1 - mag2 == -1){
+            magnitudeFinal = Math.max(mag1, mag2);
+
+            if (magnitudeFinal == mag1)
+                valorFinal = (double)valor1 - ((double)valor2 / 10);
+            else
+                valorFinal = (double)valor2 - ((double)valor1 / 10);
+        }else{
+            magnitudeFinal = Math.max(mag1, mag2);
+            if (magnitudeFinal == mag1)
+                valorFinal = valor1;
+            else
+                valorFinal = valor2;
+        }
+
+        return new ValorMag((int)Math.floor(valorFinal), (int)Math.floor(magnitudeFinal));
+    }
 }

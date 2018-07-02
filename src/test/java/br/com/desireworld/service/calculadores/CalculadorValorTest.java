@@ -44,4 +44,46 @@ class CalculadorValorTest {
         ValorMag resultado = new ValorMag(35, 0);
         assertEquals(resultado, calculador.DoubleToValorMag(0.35));
     }
+
+    @Test
+    //Testa se está dividingo 1000 (10m4) por 50 (50m2) e dando 20 (20m2)
+    void DivideValorMag_10m4_50m2(){
+        ValorMag resultado = new ValorMag(20, 2);
+        ValorMag valorMag = new ValorMag(10, 4);
+        ValorMag divisor = new ValorMag(50, 2);
+        assertEquals(resultado, calculador.DivideValorMag(valorMag, divisor));
+    }
+
+    @Test
+    //Testa se está dividindo 1000 (10m4) por 50 e dando 20 (20m2)
+    void DivideValorMag_10m4_50(){
+        ValorMag resultado = new ValorMag(20, 2);
+        ValorMag valorMag = new ValorMag(10, 4);
+        int divisor = 50;
+        assertEquals(resultado, calculador.DivideValorMag(valorMag, divisor));
+    }
+
+    @Test
+    //Testa se 25% de 1000 é 250
+    void CalculaPorcentagem(){
+        assertEquals(250, calculador.CalculaPorcentagem(25, 1000));
+    }
+
+    @Test
+    //Testa se 10m4 + 25m3 = 12m4
+    void SomaValorMag(){
+        ValorMag valor1 = new ValorMag(10, 4);
+        ValorMag valor2 = new ValorMag(25, 3);
+        ValorMag resultado = new ValorMag(12, 4);
+        assertEquals(resultado, calculador.SomaValorMag(valor1, valor2));
+    }
+
+    @Test
+    //Testa se 95m4 - 50m4 = 45m4
+    void SubtraiValorMag(){
+        ValorMag valor1 = new ValorMag(95, 4);
+        ValorMag valor2 = new ValorMag(50, 4);
+        ValorMag resultado = new ValorMag(45, 4);
+        assertEquals(resultado, calculador.SubtraiValorMag(valor1, valor2));
+    }
 }

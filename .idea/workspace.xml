@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3a53a85-d102-424c-8bdb-39e897356572" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorSer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/desireworld/service/calculadores/CalculadorValorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/desireworld/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ValorMag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ValorMag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorValor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorValor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/desireworld/service/calculadores/CalculadorValorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/desireworld/service/calculadores/CalculadorValorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,12 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="CalculadorValor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorValor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="94" column="1" lean-forward="true" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+            <state relative-caret-position="-113">
+              <caret line="190" column="35" selection-start-line="190" selection-start-column="20" selection-end-line="190" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -33,11 +29,14 @@
       <file leaf-file-name="CalculadorValorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/desireworld/service/calculadores/CalculadorValorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="30" />
+            <state relative-caret-position="482">
+              <caret line="85" column="44" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
               <folding>
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#2099#2100#0" expanded="true" />
+                <element signature="e#2129#2130#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,8 +45,8 @@
       <file leaf-file-name="ValorMag.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ValorMag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+            <state relative-caret-position="731">
+              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -143,8 +142,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,13 +166,37 @@
               <item name="dsrapi" type="b2602c69:ProjectViewProjectNode" />
               <item name="dsrapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dsrapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsrapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="desireworld" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dsrapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsrapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="desireworld" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dsrapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsrapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculadorValorTest.IntToValorMag">
+  <component name="RunManager" selected="JUnit.CalculadorValorTest.SubtraiValorMag">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -234,7 +257,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CalculadorValorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadorValorTest.CalculaPorcentagem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dsr-app" />
       <extension name="coverage">
         <pattern>
@@ -246,30 +269,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="br.com.desireworld.service.calculadores" />
       <option name="MAIN_CLASS_NAME" value="br.com.desireworld.service.calculadores.CalculadorValorTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CalculadorValorTest.DoubleToValorMag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dsr-app" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.desireworld.service.calculadores.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="br.com.desireworld.service.calculadores" />
-      <option name="MAIN_CLASS_NAME" value="br.com.desireworld.service.calculadores.CalculadorValorTest" />
-      <option name="METHOD_NAME" value="DoubleToValorMag" />
+      <option name="METHOD_NAME" value="CalculaPorcentagem" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -280,7 +280,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CalculadorValorTest.IntToValorMag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadorValorTest.DivideValorMag_10m4_50" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dsr-app" />
       <extension name="coverage">
         <pattern>
@@ -292,7 +292,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="br.com.desireworld.service.calculadores" />
       <option name="MAIN_CLASS_NAME" value="br.com.desireworld.service.calculadores.CalculadorValorTest" />
-      <option name="METHOD_NAME" value="IntToValorMag" />
+      <option name="METHOD_NAME" value="DivideValorMag_10m4_50" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -303,7 +303,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CalculadorValorTest.multiplicaValorMag_10m3_10m2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadorValorTest.DivideValorMag_10m4_50m2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dsr-app" />
       <extension name="coverage">
         <pattern>
@@ -315,7 +315,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="br.com.desireworld.service.calculadores" />
       <option name="MAIN_CLASS_NAME" value="br.com.desireworld.service.calculadores.CalculadorValorTest" />
-      <option name="METHOD_NAME" value="multiplicaValorMag_10m3_10m2" />
+      <option name="METHOD_NAME" value="DivideValorMag_10m4_50m2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -326,7 +326,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CalculadorValorTest.valorMagToInteger_10m3_to_100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadorValorTest.SomaValorMag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dsr-app" />
       <extension name="coverage">
         <pattern>
@@ -338,7 +338,30 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="br.com.desireworld.service.calculadores" />
       <option name="MAIN_CLASS_NAME" value="br.com.desireworld.service.calculadores.CalculadorValorTest" />
-      <option name="METHOD_NAME" value="valorMagToInteger_10m3_to_100" />
+      <option name="METHOD_NAME" value="SomaValorMag" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CalculadorValorTest.SubtraiValorMag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dsr-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.desireworld.service.calculadores.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="br.com.desireworld.service.calculadores" />
+      <option name="MAIN_CLASS_NAME" value="br.com.desireworld.service.calculadores.CalculadorValorTest" />
+      <option name="METHOD_NAME" value="SubtraiValorMag" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -388,20 +411,20 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculadorValorTest" />
-      <item itemvalue="JUnit.CalculadorValorTest.multiplicaValorMag_10m3_10m2" />
-      <item itemvalue="JUnit.CalculadorValorTest.valorMagToInteger_10m3_to_100" />
-      <item itemvalue="JUnit.CalculadorValorTest.IntToValorMag" />
-      <item itemvalue="JUnit.CalculadorValorTest.DoubleToValorMag" />
       <item itemvalue="JUnit.All Tests in dsr-app" />
+      <item itemvalue="JUnit.CalculadorValorTest.DivideValorMag_10m4_50m2" />
+      <item itemvalue="JUnit.CalculadorValorTest.DivideValorMag_10m4_50" />
+      <item itemvalue="JUnit.CalculadorValorTest.CalculaPorcentagem" />
+      <item itemvalue="JUnit.CalculadorValorTest.SomaValorMag" />
+      <item itemvalue="JUnit.CalculadorValorTest.SubtraiValorMag" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculadorValorTest.IntToValorMag" />
-        <item itemvalue="JUnit.CalculadorValorTest.DoubleToValorMag" />
-        <item itemvalue="JUnit.CalculadorValorTest" />
-        <item itemvalue="JUnit.CalculadorValorTest.multiplicaValorMag_10m3_10m2" />
-        <item itemvalue="JUnit.CalculadorValorTest.valorMagToInteger_10m3_to_100" />
+        <item itemvalue="JUnit.CalculadorValorTest.SubtraiValorMag" />
+        <item itemvalue="JUnit.CalculadorValorTest.SomaValorMag" />
+        <item itemvalue="JUnit.CalculadorValorTest.CalculaPorcentagem" />
+        <item itemvalue="JUnit.CalculadorValorTest.DivideValorMag_10m4_50" />
+        <item itemvalue="JUnit.CalculadorValorTest.DivideValorMag_10m4_50m2" />
       </list>
     </recent_temporary>
   </component>
@@ -419,69 +442,69 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculadorValorTest_IntToValorMag - 2018.07.02 at 15h 17m 25s.xml">
-      <configuration name="CalculadorValorTest.IntToValorMag" configurationId="JUnit" />
+    <history-entry file="CalculadorValorTest_CalculaPorcentagem - 2018.07.02 at 20h 34m 38s.xml">
+      <configuration name="CalculadorValorTest.CalculaPorcentagem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculadorValorTest_DoubleToValorMag - 2018.07.02 at 15h 17m 29s.xml">
-      <configuration name="CalculadorValorTest.DoubleToValorMag" configurationId="JUnit" />
+    <history-entry file="CalculadorValorTest_CalculaPorcentagem - 2018.07.02 at 20h 35m 39s.xml">
+      <configuration name="CalculadorValorTest.CalculaPorcentagem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculadorValorTest_DoubleToValorMag - 2018.07.02 at 15h 32m 57s.xml">
-      <configuration name="CalculadorValorTest.DoubleToValorMag" configurationId="JUnit" />
+    <history-entry file="CalculadorValorTest_CalculaPorcentagem - 2018.07.02 at 20h 35m 48s.xml">
+      <configuration name="CalculadorValorTest.CalculaPorcentagem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculadorValorTest_DoubleToValorMag - 2018.07.02 at 15h 47m 05s.xml">
-      <configuration name="CalculadorValorTest.DoubleToValorMag" configurationId="JUnit" />
+    <history-entry file="CalculadorValorTest_CalculaPorcentagem - 2018.07.02 at 20h 35m 57s.xml">
+      <configuration name="CalculadorValorTest.CalculaPorcentagem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculadorValorTest - 2018.07.02 at 16h 18m 55s.xml">
-      <configuration name="CalculadorValorTest" configurationId="JUnit" />
+    <history-entry file="CalculadorValorTest_SomaValorMag - 2018.07.02 at 20h 41m 47s.xml">
+      <configuration name="CalculadorValorTest.SomaValorMag" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculadorValorTest - 2018.07.02 at 16h 19m 34s.xml">
-      <configuration name="CalculadorValorTest" configurationId="JUnit" />
+    <history-entry file="CalculadorValorTest_SomaValorMag - 2018.07.02 at 20h 44m 57s.xml">
+      <configuration name="CalculadorValorTest.SomaValorMag" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculadorValorTest - 2018.07.02 at 16h 21m 02s.xml">
-      <configuration name="CalculadorValorTest" configurationId="JUnit" />
+    <history-entry file="CalculadorValorTest_SubtraiValorMag - 2018.07.02 at 20h 46m 33s.xml">
+      <configuration name="CalculadorValorTest.SubtraiValorMag" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculadorValorTest - 2018.07.02 at 16h 37m 34s.xml">
-      <configuration name="CalculadorValorTest" configurationId="JUnit" />
+    <history-entry file="CalculadorValorTest_SomaValorMag - 2018.07.02 at 20h 46m 40s.xml">
+      <configuration name="CalculadorValorTest.SomaValorMag" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculadorValorTest - 2018.07.02 at 16h 38m 01s.xml">
-      <configuration name="CalculadorValorTest" configurationId="JUnit" />
+    <history-entry file="CalculadorValorTest_SubtraiValorMag - 2018.07.02 at 20h 46m 43s.xml">
+      <configuration name="CalculadorValorTest.SubtraiValorMag" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculadorValorTest - 2018.07.02 at 17h 55m 44s.xml">
-      <configuration name="CalculadorValorTest" configurationId="JUnit" />
+    <history-entry file="CalculadorValorTest_SubtraiValorMag - 2018.07.02 at 20h 46m 57s.xml">
+      <configuration name="CalculadorValorTest.SubtraiValorMag" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3290938" />
-      <window_info anchor="bottom" id="Dependency Viewer" weight="0.3290938" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32837406" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32837406" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19180088" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Learn" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19166666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990461" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985122" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="7" weight="0.3290938" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Learn" order="3" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -489,7 +512,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -784,13 +807,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorSer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorSer.java" />
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.3.RELEASE/spring-boot-dependencies-2.0.3.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -798,20 +815,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorValorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorValorTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,25 +832,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ValorMag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        <state relative-caret-position="731">
+          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorValor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="94" column="1" lean-forward="true" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+        <state relative-caret-position="-113">
+          <caret line="190" column="35" selection-start-line="190" selection-start-column="20" selection-end-line="190" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/desireworld/service/calculadores/CalculadorValorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="30" />
+        <state relative-caret-position="482">
+          <caret line="85" column="44" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
           <folding>
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#2099#2100#0" expanded="true" />
+            <element signature="e#2129#2130#0" expanded="true" />
           </folding>
         </state>
       </provider>
