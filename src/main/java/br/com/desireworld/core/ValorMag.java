@@ -43,4 +43,20 @@ public class ValorMag {
     public String toString(){
         return this.valor + "m" + this.mag;
     }
+
+    public boolean equals(Object obj){
+        if (obj == this){
+            return true;
+        }
+        if (getClass() != obj.getClass()){
+            return false;
+        }
+        ValorMag valorMag = (ValorMag) obj;
+
+        if (valorMag.getValor() == this.valor && valorMag.getMag() == this.mag){
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
