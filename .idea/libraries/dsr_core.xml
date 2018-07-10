@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dsr-core">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../java/dsr-core/out/artifacts/dsr_core_jar/dsr-core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

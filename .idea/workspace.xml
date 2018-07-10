@@ -2,9 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3a53a85-d102-424c-8bdb-39e897356572" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/dsr_core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorValor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorValor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/desireworld/service/calculadores/CalculadorValorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/desireworld/service/calculadores/CalculadorValorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/Duracao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/Efeito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/Energia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/Intervalo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/Ser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ValorMag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/alvos/Alvo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/alvos/Circulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/alvos/Ego.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/alvos/Elipse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/alvos/Linha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/alvos/Losango.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/alvos/Ponto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/alvos/Triangulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/alvos/Vetor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ciencias/AreaCientifica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ciencias/Ciencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ciencias/Elemento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ciencias/Esfera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/lugares/Origem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/lugares/Plano.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/lugares/Realidade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Carisma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Cerne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Classe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Comportamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Deslocamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Destino.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Elo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Especie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Experiencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Identidade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Indole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Pericia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Rei.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Resposta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Subatributos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Taxonomia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/acoes/Acao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/acoes/Arcanidade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/acoes/Habilidade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/acoes/Tecnica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/acoes/TipoAcao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/atributos/Atributo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/atributos/Atributos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/atributos/Criatividade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/atributos/Destreza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/atributos/Evolucao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/atributos/Existencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/atributos/Forca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/atributos/Ideia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/atributos/Intelecto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/atributos/Materia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorSer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorSer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,36 +72,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CalculadorValor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorValor.java">
+      <file leaf-file-name="CalculadorSer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorSer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-113">
-              <caret line="190" column="35" selection-start-line="190" selection-start-column="20" selection-end-line="190" selection-end-column="35" />
+            <state relative-caret-position="68">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculadorValorTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/desireworld/service/calculadores/CalculadorValorTest.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="85" column="44" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#2099#2100#0" expanded="true" />
-                <element signature="e#2129#2130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ValorMag.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ValorMag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+            <state relative-caret-position="136">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -67,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/alvos/Elipse.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/alvos/Linha.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/alvos/Circulo.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/alvos/Alvo.java" />
@@ -112,12 +150,13 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/atributos/Materia.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/atributos/Atributos.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ser/Taxonomia.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorValorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/desireworld/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/desireworld/core/ValorMag.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorValor.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/desireworld/service/calculadores/CalculadorValorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorSer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -142,52 +181,61 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="dsrapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsr-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="dsrapi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dsrapi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dsrapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dsrapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsr-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="dsrapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dsrapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsr-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="dsrapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dsrapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsr-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="dsrapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="desireworld" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dsrapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsr-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="dsrapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="desireworld" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dsrapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsr-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsrapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="desireworld" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dsr-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsrapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="desireworld" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="calculadores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dsr-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="dsrapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -196,6 +244,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -203,8 +252,8 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java/dsr-core/out/artifacts/dsr_core_jar/dsr-core.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -474,23 +523,23 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32837406" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32837406" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32837406" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19166666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19106881" />
+      <window_info id="Learn" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -504,7 +553,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Learn" order="3" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -516,13 +565,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/core/alvos/Alvo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/core/alvos/Losango.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -807,7 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorSer.java" />
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.3.RELEASE/spring-boot-dependencies-2.0.3.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -820,13 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -848,13 +882,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
           <caret line="85" column="44" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#2099#2100#0" expanded="true" />
-            <element signature="e#2129#2130#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/core/Ser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/desireworld/service/calculadores/CalculadorSer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -923,7 +971,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <last-edited>dsr-core</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

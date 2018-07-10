@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br.com.desireworld</groupId>
-    <artifactId>dsr-app</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>dsr-api</artifactId>
+    <version>0.1.0</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
